@@ -25,7 +25,7 @@
 		      // Fade in sections
 			  $body.removeClass('loading').addClass('loaded');
 			  
-		}, 800);
+		}, 3500);
 	});
 	
 	function adjustWindow(){
@@ -39,8 +39,8 @@
 	    winH = $window.height();
 	    
 	    // Keep minimum height 550
-	    if(winH <= 550) {
-			winH = 550;
+	    if(winH <= 768) {
+			winH = 768;
 		} 
 	    
 	    // Resize our slides

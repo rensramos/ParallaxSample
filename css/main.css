@@ -118,10 +118,18 @@ body {
 	padding-top: 106px;
 }
 h2 {
-	margin-top: 0;
+	/*margin-top: 0;*/
+  background-color:#fff; overflow:hidden;
+  display:inline-block; 
+  padding:10px; 
+  font-weight:bold;
+  font-family:arial;
+  font-size:200px;
 }
+
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;
+    background-color: #5db596;
 }
 section {
 	min-width: 960px;
@@ -185,14 +193,13 @@ main {
 	}
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
+#slide-1 .bcg {background-image:url('../img/landmark/1.jpg')}
 #slide-1 .hsContent {
-	bottom: 200px;
 	top: auto;
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
+#slide-2 .bcg {background-image:url('../img/landmark/2.jpg')}
 #slide-2 .hsContent {
 	margin-left: -450px;
 	top: auto;
@@ -203,7 +210,7 @@ main {
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
+#slide-3 .bcg {background-image:url('../img/landmark/3.jpg')}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -213,17 +220,67 @@ main {
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
+#slide-4 .bcg {background-image:url('../img/landmark/4.jpg')}
 #slide-4 .hsContent {
 	margin-left: -450px;
-	position: fixed;
-	top: 250px;
+	top: 220px;
 }
 	#slide-4 h2 {
-		background: none;
-		padding-left: 0;
-		padding-right: 0;
+		background-color: rgba(0,0,0,0.6);
+		padding:20px;
 	}
+
+
+
+/* Slide 5 */
+#slide-5 .bcg {background-image:url('../img/landmark/5.jpg')}
+#slide-5 .hsContent {
+    margin-left: -450px;
+    top: 250px;
+}
+    #slide-5 h2 {
+        background-color: rgba(0,0,0,0.6);
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+/* Slide 6 */
+#slide-6 .bcg {background-image:url('../img/landmark/6.jpg')}
+#slide-6 .hsContent {
+    margin-left: -450px;
+    top: 250px;
+}
+    #slide-6 h2 {
+        background-color: rgba(0,0,0,0.6);
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+/* Slide 7 */
+#slide-7 .bcg {background-image:url('../img/landmark/7.jpg')}
+#slide-7 .hsContent {
+    margin-left: -450px;
+  
+    top: 250px;
+}
+    #slide-7 h2 {
+        background-color: rgba(0,0,0,0.6);
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+/* Slide 8 */
+#slide-8 .bcg {background-image:url('../img/landmark/8.jpg')}
+#slide-8 .hsContent {
+    margin-left: -450px;
+    position: fixed;
+    top: 250px;
+}
+    #slide-8 h2 {
+        background-color: rgba(0,0,0,0.6);
+        padding-left: 0;
+        padding-right: 0;
+    }
 
 /* ==========================================================================
    Helper classes
